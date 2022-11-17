@@ -12,7 +12,7 @@ async function getapi(url) {
 	var data = await response.json();
 	console.log(data);
 	if (response) {
-		hideloader();
+		hideloader(); // Calling Hi Function to hide Loader only when there is Data .
 	}
 	show(data.results);
 }
