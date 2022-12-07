@@ -37,6 +37,7 @@ function show(data) {
 	
 	// Loop to access all rows
 	//for (let r of data) {
+	// Showing Details of Sun activity Timings
 		tab += `<tr>
 	<td> ${ data.sunrise }</td>
 	<td> ${ data.sunset }</td>
